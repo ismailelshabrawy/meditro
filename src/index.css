@@ -1,13 +1,135 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Tajawal', sans-serif;
+  background-color: #fff;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html{
+  scroll-behavior: smooth;
+}
+:root{
+  --main-color : #1F2278;
+  --orange-color : #f17732;
+  --btn-color : #565acf;
+}
+section , footer , header{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 25px 0px;
+  margin-top: 50px;
+}
+a{
+  text-decoration: none !important;
+}
+span{
+  display: block;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style-type: none;
+}
+button{
+  text-align: center;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 4px;
+}
+p{
+  line-height: 28px;
+}
+input{
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  text-align: left;
+  padding: 5px 15px;
+  color: #333;
+  font-size: 16px;
+  font-family: 'Tajawal';
+}
+/*start cs the footer */
+footer img.footerlogo{
+  width: auto;
+  height: 40px;
+  margin: 15px 0px;
+}
+footer p{
+  font-size: 17px;
+}
+footer .footer-contact{
+  display: flex;
+}
+footer .footer-contact .footer-icon{
+  margin: 7px 20px 0px 0px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--orange-color);
+  line-height: 40px;
+  border: 1px solid var(--orange-color);
+  box-sizing: border-box;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+footer.footer-contact .footer-icon svg{
+  color: #fff;
+  text-align: center;
+  padding-left: 10px;
+}
+footer .footer-contact h6{
+  color: var(--orange-color);
+  font-size: 16px;
+}
+footer .footer-contact h4{
+  color: var(--main-color);
+  font-size: 18px;
+  margin-top: 10px;
+}
+footer jh2{
+  color: var(--main-color);
+  font-size: 30px;
+  margin: 15px 0px;
+}
+footer ul{
+  margin-top: 20px;
+}
+footer ul li{
+  margin-top: 10px;
+}
+footer ul li a{
+  color: #333;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+footer form{
+  margin: 15px 0px;
+}
+footer form input{
+  border: 1px solid #ccc;
+  margin: 10px 0px;
+  width: 100%;
+}
+footer form button{
+  width: 100%;
+  background-color: var(--orange-color) !important;
+  border: 1px solid var(--orange-color) !important;
+  color: #fff
+}
+footer ul.social li{
+  display: inline-block;
+  margin-right: 20px;
+}
+footer .footer-bottom{
+  text-align: center;
+  margin-top: 25px;
+  padding: 10px 0px;
+  border-top: 1px solid #ccc;
+  
+}
+footer .footer-bottom span{
+  display: block;
+  margin-top: 10px;
 }
